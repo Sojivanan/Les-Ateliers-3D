@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <title>Les Ateliers 3D</title>
+</head>
+<body>
+    <header>
+        <img src="assets/Logo.png" alt="logo">
+        <nav class="menu">
+            <div class="onglets">
+                <!-- un lien pour "accueil" -->
+                <a href="" class="onglets_accueil">Accueil</a>
+                <!-- un lien pour "notre expertise" -->
+                <a href="#expertise" class="onglets_expertise">Notre expertise</a>
+                <!-- un lien pour "nos projets" -->
+                <a href="#projets" class="onglets_projets">Nos projets</a>
+                <!-- un lien pour "contacts" -->
+                <a href="#contact" class="onglets_contact">Contact</a>
+            </div>
+        </nav>
+        <div class="accueil">
+            <h1>LES ATELIERS 3D</h1>
+            <h2>L'agence 360 pour tous vos projets 3D</h2>
+            <p>L’agence Les Ateliers 3D s’engage à réaliser vos idées de conception<br>3D dans les domaines suivants : Architecture, Design global,<br>Infographie 3D, Modélisation, Rendu photo-réaliste, et plein d’autres.</p>
+        </div>
+    </header>
+    <main>
+        <section class="notre_expertise" id="expertise">
+            <div class="contenu">
+                <div class="informations">
+                    <div class="gauche">
+                        <img class="img_deck" src="assets/cherrydeck-rMILC1PIwM0-unsplash@2x.png" alt="CherryDeck">
+                        <img class="img_9" src="assets/Image 9@2x.png" alt="Image_9">
+                    </div>
+                    <div class="droite">
+                        <h2>Une équipe <span class="blue"><strong>innovante</strong></span></h2>
+                        <img class="ligne_29" src="assets/Ligne 29.png" alt="Ligne_29">
+                        <br><br>
+                        <p>Les Ateliers 3D sont composés d’une équipe d’infographistes 3D de <br>grand talent basés à Paris, ce département permet de réaliser des <br>oeuvres digitales dans des conditions techniques et artistiques de haut <br>de gamme. <br><br><br>
+                        De multiples supports s’offrent à vous, animations, design de produits <br>3D, visites virtuelles réalistes avec la possibilité de naviguer dans <br>l’ensemble de votre futur espace. <br><br><br>
+                        Une expérience 100% immersive, vous découvrez votre futur produit; <br>animation, objet 3D, commerce, show-room…etc et manipulez à l’aide <br>de votre ordinateur, tablette ou encore smartphone. <br><br><br>
+                        Nous pouvons intervenir également sur des projets à l’international…</p>
+                        <button><a href="#contact">NOUS CONTACTER</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="nos_projets" id="projets">
+            <div class="contenu_projets">
+                <div class="informations_projets">
+                    <h2>Notre technologie au service de <span class="blue">vos projets</span></h2>
+                    <img class="ligne_29_projets" src="assets/Ligne 29.png" alt="Ligne_29_projets">
+                    <div class="galerie">
+                        <img class="img_environnement_1" src="assets/Environnement 3D.png" alt="Environnement_3D">
+                        <img class="img_airbus" src="assets/Objet 3D.png" alt="Airbus">
+                        <img class="img_environnement_2" src="assets/Environnement 3D.png" alt="Environnement_3D_2">
+                    </div>
+                    <button><a href="#informations_expertise">VOIR TOUS LES PROJETS</a></button>
+                </div>
+                <div class="informations_expertise" id="informations_expertise">
+                    <h2>Une <span class="blue">expertise</span> haut de gamme...</h2>
+                    <img class="tracé_37" src="assets/Tracé 37.png" alt="Tracé_37_projets">
+                    <div class="galeries_expertise">
+                        <img class="img_animation" src="assets/Calque 2-2.png" alt="Animation 3D">
+                        <img class="img_modélisation" src="assets/Calque 2-1.png" alt="Modélisation 3D">
+                        <img class="img_visites" src="assets/Calque 2.png" alt="Visites virtuelles 3D">
+                        <div class="galeries_nom">
+                            <div class="nom">Animation 3D</div>
+                            <div class="nom">Modélisation 3D</div>
+                            <div class="nom">Visites virtuelles 3D</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pour_contacter" id="contact">
+            <div class="contact_header">
+                <br><br><br>
+                <h2 class="contact_titre">Travaillons ensemble, <span class="blue">contactez nous</span></h2>
+                <img class="ligne_33_contact" src="assets/Ligne 33.png" alt="Ligne_33_contact">
+            </div>
+            <div class="formulaire">
+                <form>
+                    <div class="row">
+                        <div class="input_groupe" id="nom">
+                            <input type="text" id="nom" placeholder="Nom" required>
+                        </div>
+                        <div class="input_groupe" id="prénom">
+                            <input type="text" id="prénom" placeholder="Prénom" required>
+                        </div>
+                        <div class="input_groupe" id="téléphone">
+                            <input type="number" id="téléphone" placeholder="Téléphone" required>
+                        </div>
+                        <div class="input_groupe" id="email">
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="input_groupe" id="nom_entreprise">
+                        <input type="text" id="nom_entreprise" placeholder="Nom de l'entreprise" required>
+                    </div>
+                    <div class="input_groupe" id="message">
+                        <textarea cols="82" rows="10" placeholder="Parlez-nous de notre projet ?"></textarea>                    
+                    </div>
+                    <button type="submit">ENVOYER VOTRE MESSAGE</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="bas_de_page">
+            <div class="coordonnées">
+                <img src="assets/Fichier 9@1024x.png" alt="logo">
+                <a href="mailto:contact@lesateliers3d.com" class="mail">contact@lesateliers3d.com</a>
+                <a href="tel:0000000000" class="téléphone">00 00 00 00 00</a>
+            </div>
+            <div class="réseaux">
+                <h3>SUIVEZ-NOUS</h3>
+                <img src="assets/linkedin.png" class="linkedin" alt="linkedin">
+                <img src="assets/instagram.png" class="instagram" alt="instagram">
+                <img src="assets/facebook.png" class="facebook" alt="facebook">
+            </div>
+            <div class="liens">
+                <a href="">Accueil</a>
+                <br><br>
+                <a href="#expertise" class="lien_expertise">Notre expertise</a>
+                <br><br>
+                <a href="#projets" class="lien_projets">Nos projets</a>
+                <br><br>
+                <a href="#contact" class="lien_contact">Contact</a>
+            </div>
+        </section>
+        <section class="mentions">
+            <div class="infos_mentions">
+                <p>Mentions légales</p>
+                <p>Conditions générales de vente</p>
+                <p>Copyright @Les ateliers 3D</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

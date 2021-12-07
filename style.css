@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -100px;
+    height: 112px;
+}
+
+nav img{
+    margin-top: 8px;
+    width: 86px;
+    height: 86px;
+    opacity: 1;
+    margin-left: 30px;
+}
+
+nav .onglets{
+    margin-top: 39px;
+    margin-left: 685px;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 23px;
+    font-size: 16px;
+    opacity: 1;
+    font-family: 'Poppins Medium', sans-serif;
+    font-weight: 500;
+    margin-left: 52px;
+}
+
+header{
+    background-image: url(assets/Groupe\ de\ masques\ 1.png);
+    background-size: cover;
+    width: 1366px;
+    height: 766px;
+}
+
+header img{
+    margin-top: 8px;
+    margin-left: 60px;
+    width: 86px;
+    height: 86px;
+}
+
+.accueil{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.accueil h1{
+    color: transparent;
+    margin-top: 110px;
+    font-size: 68px;
+    height: 109px;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: 'Poppins Semi bold', sans-serif;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: #1350CD;
+    margin-left: 30px;
+}
+
+.accueil h2{
+    margin-top: -31px;
+    font-size: 25px;
+    margin-right: 859px;
+    width: 477px;
+    height: 35px;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins Semi bold', sans-serif;
+    margin-left: 30px;
+    color: #2F2F2F;
+}
+
+.accueil p{
+    font-size: 16px;
+    margin-right: 766px;
+    margin-bottom: 290px;
+    height: 83px;
+    letter-spacing: 0.4px;
+    font-family: 'Poppins Medium', sans-serif;
+    color: #606060;
+    margin-left: 30px;
+}
+
+.notre_expertise{
+    top: 766px;
+    width: 1366px;
+    height: 859px;  
+    margin-left: 0px;
+    background-color: #F7F7F7;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.notre_expertise .contenu .informations .gauche .img_deck{
+    width: 567px;
+    height: 567px;
+    margin-left: 30px;
+    top: 857px;
+    border: 1px solid #707070;
+    opacity: 1;
+    position: absolute;
+}
+
+.notre_expertise .contenu .informations .gauche .img_9{
+    top: 1230px;
+    margin-left: 142px;
+    margin-right: 683px;
+    width: 541px;
+    height: 304px;
+    opacity: 1;
+    position: absolute;
+}
+
+.droite h2{
+    margin-top: 181px;
+    margin-left: 735px;
+    width: 576px;
+    height: 27px;
+    font-size: 52px;
+    font-family: 'Poppins Medium', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+}
+
+.blue{
+    color: #1350CD;
+}
+
+.droite p{
+    top: 1037px;
+    margin-left: 735px;
+    width: 580px;
+    height: 333px;
+    color: #606060;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 16px;
+    opacity: 1;
+    letter-spacing: 1.1px;
+}
+
+.ligne_29{
+    margin-top: -50px;
+    margin-left: 898px;
+    width: 250px;
+    height: 0px;
+    border: solid #1350CD;
+}
+
+.droite button{
+    font-family: 'Poppins Semi bold', sans-serif;
+    padding: 13.5px 31px;
+    background-color: #1350CD;
+    font-size: 16px;
+    border: none;
+    margin-left: 921px;
+    height: 50px;
+}
+
+.droite button a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.informations_projets h2{
+    font-size: 52px;
+    font-family: 'Poppins Medium', sans-serif;
+    font-weight: normal;
+    color: #2F2F2F;
+    margin-left: 142px;
+    margin-top: 50px;
+    letter-spacing: 2.4px;
+    width: 1130px;
+    height: 18px;
+}
+
+.ligne_29_projets{
+    margin-left: 560px;
+    width: 250px;
+    height: 0px;
+    border: solid #1350CD;
+}
+
+.contenu_projets{
+    width: 1366px;
+    height: 583px;
+}
+.galerie{
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+}
+
+.img_environnement_1{
+    width: 456px;
+    height: 300px;
+    float: left;
+    background-image: url(assets/Rectangle\ 40.png);
+    background-color: transparent;
+}
+
+.img_airbus{
+    width: 456px;
+    height: 300px;
+    padding: 0;
+    background-image: url(assets/Rectangle\ 62.png);
+    background-color: transparent;
+}
+
+.img_environnement_2{
+    width: 456px;
+    height: 300px;
+    float: right;
+    margin-top: -304px;
+    background-image: url(assets/Rectangle\ 40.png);
+    background-color: transparent;;
+}
+
+.nos_projets{
+    width: 100%;
+    height: 583px;
+    margin: 0;
+}
+
+.informations_projets button{
+    background-color: #1350CD;
+    font-family: 'Poppins Semi bold', sans-serif;
+    font-size: 16px;
+    margin-top: 59.98px;
+    margin-left: 579px;
+    width: 248px;
+    height: 50px;
+    border-style: none;
+}
+
+.informations_projets button a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.informations_expertise h2{
+    font-size: 52px;
+    font-family: 'Poppins Medium', sans-serif;
+    font-weight: normal;
+    color: #2F2F2F;
+    margin-left: 267px;
+    width: 832px;
+    height: 18px;
+    letter-spacing: 3px;
+    margin-top: 63.54px;
+}
+
+.tracé_37{
+    margin-left: 560px;
+    width: 250px;
+    height: 0px;
+    border: solid #1350CD;
+}
+
+.img_animation{
+    margin-left: 159px;
+    width: 130px;
+    height: 130px;
+    margin-top: 79.73px;
+}
+
+.img_modélisation{
+    margin-left: 310.46px;
+    width: 130px;
+    height: 130px;
+    margin-top: 79.73px;
+}
+
+.img_visites{
+    margin-left: 311.73px;
+    width: 130px;
+    height: 130px;
+    margin-top: 79.73px;
+}
+
+.galeries_nom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 141.63px;
+    font-family: 'Poppins bold', sans-serif;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 124.63px;
+}
+
+.nom{
+    color: #1350CD;
+    font-family: 'Poppins bold', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 24.4px;
+}
+
+.pour_contacter{
+    margin-top: 504px;
+    margin-left: 0px;
+    width: 1366px;
+    height: 1050px;
+    background-color: #F7F7F7;
+}
+
+.contact_titre{
+    margin-top: 30px;
+    margin-left: 190px;
+    width: 986px;
+    height: 13.5px;
+    font-size: 52px;
+    font-family: 'Poppins Medium', sans-serif;
+    font-weight: normal;
+    color: #2F2F2F;
+    letter-spacing: 3px;
+}
+
+.ligne_33_contact{
+    margin-left: 560px;
+    width: 250px;
+    height: 0px;
+    border: solid #1350CD;
+}
+
+.formulaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-left: 120px;
+    width: 1126px;
+    height: 760px;
+    margin-top: 42.5px;
+}
+
+.input_groupe{
+    margin-bottom: 66px;
+    position: relative;
+}
+
+#nom input{
+    height: 50px;
+    width: 300px;
+    margin-left: 212px;
+}
+
+#prénom input{
+    height: 50px;
+    width: 300px;
+}
+
+#téléphone input{
+    height: 50px;
+    width: 300px;
+    margin-left: 212px;
+}
+
+#email input{
+    height: 50px;
+    width: 300px;
+}
+
+#nom_entreprise{
+    height: 50px;
+    width: 675px;
+    margin-left: 106px;
+}
+
+#message{
+    width: 675px;
+    margin-left: 106px;
+}
+
+textarea{
+    margin-left: 106px;
+}
+
+input, textarea{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden; 
+    border-bottom: 1px solid #C4C3C3;
+    color: #C4C3C3;
+    font-size: 16px;
+    font-family: 'Poppins bold', sans-serif;
+}
+
+form button{
+    width: 261px;
+    height: 50px;
+    background-color: #1350CD;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Poppins Medium', sans-serif;
+    margin-left: 460px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.row .input_groupe{
+    flex-basis: 48%;
+}
+
+footer a{
+    color: #F7F7F7;
+}
+.bas_de_page{
+    background-color: #343434;
+    width: 1366px;
+    height: 330px;
+}
+.coordonnées{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.coordonnées img{
+    margin-top: 70.35px;
+    margin-left: 166px;
+    width: 98px;
+    height: 98px;
+}
+
+.coordonnées .mail{
+    margin-top: 22.52px;
+    margin-left: 103px;
+    width: 225px;
+    height: 23px;
+    font-size: 16px;
+    font-family: 'Poppins Semi bold', sans-serif;
+    letter-spacing: 1.4px;
+}
+
+.coordonnées .téléphone{
+    margin-top: 16.25px;
+    margin-left: 148px;
+    width: 119px;
+    height: 23px;
+    font-size: 16px;
+    font-family: 'Poppins Medium', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+.réseaux h3{
+    margin-top: -149.39px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: 'Poppins Semi bold', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #FFFFFF;
+}
+
+.réseaux{
+    margin-left: 527px;
+}
+
+.réseaux img{
+    margin-right: 60.46px;
+}
+
+.liens{
+    margin-top: -135.12px;
+}
+
+.liens a{
+    margin-left: 1059px;
+    width: 59px;
+    height: 330px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poppins Medium', sans-serif;
+}
+
+.lien_expertise{
+    margin-top: 11px;
+}
+
+.mentions{
+    margin: 0px;
+    width: 1366px;
+    height: 59.59px;
+    background-color: #F7F7F7;
+    flex-wrap: nowrap;
+}
+
+.mentions p{
+    display: inline;
+    margin-right: 74px;
+    color: #606060;
+    font-size: 16px;
+    font-family: 'Poppins bold', sans-serif;
+    font-weight: bold;
+    top: 18px;
+}
+
+.infos_mentions{
+    padding-top: 18px;
+    padding-left: 313px;
+}
+@media screen and (min-width:1367px){
+    nav .onglets{
+        margin-left: 760px;
+    }
+
+    nav .onglets a{
+        margin-right: 40px;
+    }
+
+    .accueil{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    nav img{
+        margin-left: 30px;
+    }
+
+    .accueil h1{
+        margin-left: 30px;
+    }
+    
+    header{
+        width: 100%;
+        height: 766px;
+    }
+    
+    .accueil p{
+        letter-spacing: 1px;
+        margin-left: 30px;
+
+    }
+
+    .accueil h2{
+        margin-left: 30px;
+    }
+
+    .notre_expertise{
+        width: 100%;
+    }
+
+    .gauche img{
+        left: 30px;
+    }
+
+    .droite h2{
+        margin-left: 787px;
+    }
+
+    .droite img{
+        margin-left: 940px;
+        width: 250px;
+        height: 0px;
+    }
+
+    .droite p{
+        margin-left: 787px;
+    }
+
+    .droite button{
+        margin-left: 957px;
+    }
+
+    .informations_projets h2{
+        margin-left: 170px;
+        margin-top: 50px;
+    }
+
+    .ligne_29_projets{
+        margin-left: 584px;
+    }
+
+    .contenu_projets{
+        width: 100%;
+    }
+
+    .img_environnement_2{
+        margin-top: 0px;
+        margin: 0;
+        width: 480px;
+        height: 300px;
+    }
+
+    .img_environnement_1{
+        width: 480px;
+        height: 300px;
+    }
+
+    .img_airbus{
+        width: 479px;
+        height: 300px;
+    }
+
+    .informations_expertise h2{
+        margin-left: 293px;
+        letter-spacing: 3px;
+    }
+
+    .galeries_nom{
+        margin-right: 190px;
+    }
+
+    .pour_contacter{
+        width: 100%;
+    }
+
+    .bas_de_page{
+        width: 100%;
+    }
+
+    .mentions{
+        width: 100%;
+    }
+
+}
+
